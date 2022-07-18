@@ -23,7 +23,6 @@ function bytes(x)
     local b3=x%256  x=(x-x%256)/256
     local b2=x%256  x=(x-x%256)/256
     local b1=x%256  x=(x-x%256)/256
-    return string.char(b1,b2,b3,b4)
 end
 
 
