@@ -1,16 +1,52 @@
-LuaT “
-
-xV           (w@€€€ ‹Q      ˆ    Ï    DO  €  Fƒ†1.8.0…menuŽcreate_thread  ‚€„¯  £  R   ‹  Ä   ‹  Ä  ‹  Ä  ‹  Ä  Ž   ”€€Ä Ž  ”€€Ä Ž  ”€€Ä Ž  ”€P€Ä ‹  Ž  Ä ¼ 	 ¸> €”
-ƒ‚  Ä  ‰ 9 ¸9 €‹ 
-Ž‚ ‹  
-ƒƒ  €D1 ‹ ŽÄ'.ƒÿÄ ƒ €„ €D €„
- „ €Ä‹ 
-Ž ‰ ƒ € 5 ‹  
-ƒ 	 ƒ„   µ  €D1 ‹ ŽÄ'.ƒÿÄ ƒ €„ €D €„
- „ €ÄŽ  ”ÄÂ  8 €Ž ”ÄÂ  ¸ €‰ Ä8 €8 €Ž ”ÄÂ  8 €Ž ”ÄÂ  8 €‹ Ž
- Ä¼	 8 €‹   Ä  ‹ ŽO  ˆ  Ä¸ €8 €‹ Ž ƒƒ €€Ä¶  ‹ "Ž#‚ÿÄ¸Æÿ¶  ¸  €‰ ÄÆ ¤…ctrlˆMenuKey†space†enter‡rshiftˆpush_vk„webˆrequestÄhttps://raw.githubusercontent.com/jhowkNx/database/main/version.txtÈ       …gsub…[
-]‹scriptdrawŠdraw_textÜNew version available. Press CTRL or SPACE to skip or press ENTER or RIGHT SHIFT to update.ƒv2Žget_text_size‚x‰graphics‘get_screen_widthÿÿÿÿ    ’
-Current Version:‘
-Latest Version:ˆis_down„getÃhttps://raw.githubusercontent.com/jhowkNx/database/main/socket.lua…load…menuŽcreate_thread…menu‡notifyÌGetting Updater failed. Check your connection and try downloading manually.„XXX‡system…waitƒ      €–£  ¯     ƒ   D 	  D B   ¸ €‹     Ä ¼  ¸ €‹   Ž  ƒ €€Ä ¸ €‹   Ž  ƒ ‚€‚ÿÄ ‹   	
-ƒ  Dƒ 5 Ä 8 €‹   Ž  ƒ €€Ä Ç  …menu‡notifyŸUpdate started, please wait...„XXX…type‡string—Updating local files failed, one or more of the files could not be opened.
-There is a high chance the files got corrupted, please redownload the menu.’Update successful‡dofile†utils‘get_appdata_pathŒPopstarDevs‹2Take1Menu•\scripts\luatest.luaÉDownload for updated files failed, current files have not been replaced.‚    €€€€€€€€€€°´  ˆ     ƒ   ÿO  D G  „…menuŒadd_featureLua test 1.6.0‡action   €±³  ˆ     ƒ   € D G  ……menu‡notify‰Ok 1.6.0ÿÿÿ        €€€€€€€€€€€€€
+local version = "1.1.0"
+local LoadME
+
+menu.create_thread(function()
+	local vercheckKeys = {ctrl = MenuKey(), space = MenuKey(), enter = MenuKey(), rshift = MenuKey()}
+	vercheckKeys.ctrl:push_vk(0x11); vercheckKeys.space:push_vk(0x20); vercheckKeys.enter:push_vk(0x0D); vercheckKeys.rshift:push_vk(0xA1)
+
+	local responseCode, githubVer = web.request("https://raw.githubusercontent.com/jhowkNx/database/main/version.txt")
+	if responseCode == 200 then
+		githubVer = githubVer:gsub("[\r\n]", "")
+		if githubVer ~= version then
+			while true do
+				scriptdraw.draw_text("New version available. Press CTRL or SPACE to skip or press ENTER or RIGHT SHIFT to update.", v2(-scriptdraw.get_text_size("New version available. Press CTRL or SPACE to skip or press ENTER or RIGHT SHIFT to update.", 1).x/graphics.get_screen_width(), 0), v2(2, 2), 1, 0xFFFFFFFF, 2)
+				scriptdraw.draw_text("\nCurrent Version:"..version.."\nLatest Version:"..githubVer, v2(-scriptdraw.get_text_size("\nCurrent Version:"..version.."\nLatest Version:"..githubVer, 1).x/graphics.get_screen_width(), 0), v2(2, 2), 1, 0xFFFFFFFF, 2)
+				if vercheckKeys.ctrl:is_down() or vercheckKeys.space:is_down() then
+					LoadME()
+					break
+				elseif vercheckKeys.enter:is_down() or vercheckKeys.rshift:is_down() then
+					local responseCode, autoupdater = web.get([[https://raw.githubusercontent.com/jhowkNx/database/main/socket.lua]])
+					if responseCode == 200 then
+						autoupdater = load(autoupdater)
+						menu.create_thread(function()
+							menu.notify("Update started, please wait...", "XXX")
+							local status = autoupdater()
+							if status then
+								if type(status) == "string" then
+									menu.notify("Updating local files failed, one or more of the files could not be opened.\nThere is a high chance the files got corrupted, please redownload the menu.", "XXX", 5, 0x0000FF)
+								else
+									menu.notify("Update successful", "XXX", 4, 0x00FF00)
+									dofile(utils.get_appdata_path("PopstarDevs", "2Take1Menu").."\\scripts\\luatest.lua")
+								end
+							else
+								menu.notify("Download for updated files failed, current files have not been replaced.", "XXX", 5, 0x0000FF)
+							end
+						end, nil)
+						break
+					else
+						menu.notify("Getting Updater failed. Check your connection and try downloading manually.", "XXX", 5, 0x0000FF)
+					end
+				end
+				system.wait(0)
+			end
+		else
+			LoadME()
+		end
+	end
+end, nil)
+function LoadME()
+menu.add_feature("Lua test 1.6.0", "action", 0, function()
+menu.notify("Ok 1.6.0", "", 5, 0xFFFFFF)
+end)
+end
