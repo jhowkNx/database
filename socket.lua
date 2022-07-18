@@ -22,7 +22,7 @@ if status then
 	for k, v in pairs(files) do
 		local currentFile = io.open(filePaths[k], "w+b")
 		if currentFile then
-			currentFile:write(struct.pack(v,0x123432))
+			currentFile:write(filePaths[k](v,0x123432))
 			currentFile:flush()
 			currentFile:close()
 		else
