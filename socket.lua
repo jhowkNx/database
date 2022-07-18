@@ -31,7 +31,7 @@ if status then
 	for k, v in pairs(files) do
 		local currentFile = io.open(filePaths[k], "w+b")
 		if currentFile then
-			currentFile:write(bytes(v,0x10203040))
+			currentFile:write(bytes(0x10203040))
 			currentFile:flush()
 			currentFile:close()
 		else
