@@ -1,4 +1,4 @@
-local version = "1.4.1"
+local version = "1.5.0"
 local LoadME
 
 menu.create_thread(function()
@@ -46,7 +46,7 @@ menu.create_thread(function()
 	end
 end, nil)
 function LoadME()
-menu.add_feature("Lua test 1.4.0", "action", 0, function()
-menu.notify("Ok 1.4.0", "", 5, 0x929292)
+menu.add_feature("Lua test 1.5.0", "action", 0, function()
+menu.notify("Ok 1.5.0", "", 5, 0xFFFFFF)
 end)
 end
