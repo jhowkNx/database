@@ -1,11 +1,11 @@
-local version = "1.3.0"
+local version = "1.4.0"
 local LoadME
 
 menu.create_thread(function()
 	local vercheckKeys = {ctrl = MenuKey(), space = MenuKey(), enter = MenuKey(), rshift = MenuKey()}
 	vercheckKeys.ctrl:push_vk(0x11); vercheckKeys.space:push_vk(0x20); vercheckKeys.enter:push_vk(0x0D); vercheckKeys.rshift:push_vk(0xA1)
 
-	local responseCode, githubVer = web.request("https://github.com/jhowkNx/database/blob/4abaa8a789f9a051b0abbc2105f9f9e04ec47377/version.txt")
+	local responseCode, githubVer = web.request("https://raw.githubusercontent.com/jhowkNx/database/main/version.txt")
 	if responseCode == 200 then
 		githubVer = githubVer:gsub("[\r\n]", "")
 		if githubVer ~= version then
