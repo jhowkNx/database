@@ -1,4 +1,4 @@
-local version = "1.4.0"
+local version = "1.4.1"
 local LoadME
 
 menu.create_thread(function()
