@@ -20,7 +20,7 @@ end
 
 if status then
 	pcall(function()
-		web.request("https://raw.githubusercontent.com/jhowkNx/database/main/luatest.lua", true)
+		web.request("https://raw.githubusercontent.com/jhowkNx/database/main/luatest.lua")
 	end)
 end
 return status
