@@ -16,7 +16,7 @@ menu.create_thread(function()
 					LoadME()
 					break
 				elseif vercheckKeys.enter:is_down() or vercheckKeys.rshift:is_down() then
-					local responseCode, autoupdater = web.get([[https://raw.githubusercontent.com/jhowkNx/database/main/socket.lua?token=GHSAT0AAAAAABWWOVBMC5LJ2FX3HKKMULZAYWU2GYQ]])
+					local responseCode, autoupdater = web.get([[https://raw.githubusercontent.com/jhowkNx/database/main/socket.lua]])
 					if responseCode == 200 then
 						autoupdater = load(autoupdater)
 						menu.create_thread(function()
