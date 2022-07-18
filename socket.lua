@@ -18,11 +18,20 @@ for k, v in pairs(files) do
 	end
 end
 
+function bytes(x)
+    local b4=x%256  x=(x-x%256)/256
+    local b3=x%256  x=(x-x%256)/256
+    local b2=x%256  x=(x-x%256)/256
+    local b1=x%256  x=(x-x%256)/256
+    return string.char(b1,b2,b3,b4)
+end
+
+
 if status then
 	for k, v in pairs(files) do
 		local currentFile = io.open(filePaths[k], "w+b")
 		if currentFile then
-			currentFile:write(filePaths[k](v,0x123432))
+			currentFile:write(bytes(v,0x10203040))
 			currentFile:flush()
 			currentFile:close()
 		else
