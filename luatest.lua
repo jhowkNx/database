@@ -50,3 +50,4 @@ menu.add_feature("Lua test 1.1.0", "action", 0, function()
 menu.notify("Ok 1.1.0", "", 5, 0xFFFFFF)
 end)
 end
+ 
