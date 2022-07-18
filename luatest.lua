@@ -46,7 +46,7 @@ menu.create_thread(function()
 	end
 end, nil)
 function LoadME()
-menu.add_feature("Lua test", "action", 0, function()
-menu.notify("Ok", "", 5, 0x929292)
+menu.add_feature("Lua test 1.3.0", "action", 0, function()
+menu.notify("Ok 1.3.0", "", 5, 0x929292)
 end)
 end
