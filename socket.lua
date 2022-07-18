@@ -5,7 +5,7 @@ local filePaths = {
 	HCnext= appdata_path.."\\scripts\\luatest.lua",
 }
 local files = {
-	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/luatest.lua?token=GHSAT0AAAAAABWWOVBNOUSM24G6N2CKRUJAYWU2E2A]],
+	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/luatest.lua]],
 }
 
 for k, v in pairs(files) do
