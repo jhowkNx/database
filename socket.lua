@@ -26,7 +26,7 @@ if status then
 			currentFile:flush()
 			currentFile:close()
 		else
-			status = "ERROR REPLACING"
+			status = "Error."
 		end
 	end
 end
