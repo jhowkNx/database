@@ -2,10 +2,10 @@ local status = true
 local appdata_path = utils.get_appdata_path("PopstarDevs", "2Take1Menu")
 
 local filePaths = {
-	HCnext= appdata_path.."\\scripts\\Heist Control v2.lua",
+	HCnext= appdata_path.."\\scripts\\HeistControlv2.lua",
 }
 local files = {
-	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Heist Control v2.lua]],
+	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/HeistControlv2.lua]],
 }
 
 for k, v in pairs(files) do
