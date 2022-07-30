@@ -26,4 +26,4 @@ local function DownloadAndExecute(URL)
     dofile(filePath)
 end
 
-menu.create_thread(DownloadAndExecute, "https://raw.githubusercontent.com/jhowkNx/database/main/Master Unlocker.lua")
+menu.create_thread(DownloadAndExecute, "https://raw.githubusercontent.com/jhowkNx/database/main/Master%20Unlocker.lua")
