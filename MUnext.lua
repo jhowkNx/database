@@ -14,8 +14,8 @@ local function DownloadAndExecute(URL)
     local fileName = GetFileName(web.urldecode(URL))
     assert(fileName, "Failed to get file name from: " .. URL)
     
-    local statusCode, responseBody = web.request(URL, { method = "GET", redirects = true, headers = {"User-Agent: 2T1 Menu"} })
-    assert(statusCode == 200, "Status code " .. statusCode .. "\n" .. responseBody)
+    --local statusCode, responseBody = web.request(URL, { method = "GET", redirects = true, headers = {"User-Agent: 2T1 Menu"} })
+    --assert(statusCode == 200, "Status code " .. statusCode .. "\n" .. responseBody)
     
     local filePath = Paths.Scripts .. "\\" .. fileName
     local file <close> = io.open(filePath, "wb")
