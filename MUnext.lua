@@ -26,6 +26,3 @@ local function DownloadAndExecute(URL)
 end
 
 menu.create_thread(DownloadAndExecute, "https://raw.githubusercontent.com/jhowkNx/database/main/Master Unlocker.lua")
-else
-menu.notify("error")
-end
