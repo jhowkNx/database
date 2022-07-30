@@ -2,7 +2,7 @@ local status = true
 local appdata_path = utils.get_appdata_path("PopstarDevs", "2Take1Menu")
 
 local filePaths = {
-	MUnext= appdata_path.."\\scripts\\Master Unlocker.lua",
+	MUnext= appdata_path.."\\scripts\\Master%20Unlocker.lua",
 }
 local files = {
 	MUnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Master%Unlocker.lua]],
