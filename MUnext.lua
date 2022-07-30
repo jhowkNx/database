@@ -1,29 +1,44 @@
---Thanks Proddy
-local Paths = {}
-Paths.Root = utils.get_appdata_path("PopstarDevs", "2Take1Menu")
-Paths.Scripts = Paths.Root .. "\\scripts"
+local status = true
+local appdata_path = utils.get_appdata_path("PopstarDevs", "2Take1Menu")
 
-local function GetFileName(Path)
-    local name = Path:match(".+[\\/](.-)$")
-    return name
+local filePaths = {
+	HCnext = appdata_path.."\\scripts\\Master Unlocker.lua",
+}
+local files = {
+	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Master%20Unlocker.lua]],
+}
+
+for k, v in pairs(files) do
+	local responseCode, file = web.get(v)
+	if responseCode == 200 then
+		files[k] = file
+	else
+		status = false
+		break
+	end
 end
 
-local function DownloadAndExecute(URL)
-    assert(type(URL) == "string", "Arg #1 (URL) must be a string")
-    
-    local fileName = GetFileName(web.urldecode(URL))
-    assert(fileName, "Failed to get file name from: " .. URL)
-    
-    local statusCode, responseBody = web.request(URL, { method = "GET", redirects = true, headers = {"User-Agent: 2T1 Menu"} })
-    assert(statusCode == 200, "Status code " .. statusCode .. "\n" .. responseBody)
-    
-    local filePath = Paths.Scripts .. "\\" .. fileName
-    local file <close> = io.open(filePath, "wb")
-    file:write(responseBody)
-    file:flush()
-    file:close()
-    
-    dofile(filePath)
+if status then
+	for k, v in pairs(files) do
+		local currentFile = io.open(filePaths[k], "a+")
+		if not currentFile then
+			status = "ERROR REPLACING"
+			break
+		end
+        	currentFile:close()
+	end
+	if status ~= "ERROR REPLACING" then
+		for k, v in pairs(files) do
+			local currentFile = io.open(filePaths[k], "w+b")
+			if currentFile then
+				currentFile:write(v)
+				currentFile:flush()
+				currentFile:close()
+			else
+				status = "ERROR REPLACING"
+			end
+		end
+	end
 end
 
-menu.create_thread(DownloadAndExecute, "https://raw.githubusercontent.com/jhowkNx/database/main/Master%20Unlocker.lua")
+return status
