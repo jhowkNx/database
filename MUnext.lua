@@ -14,8 +14,8 @@ local function DownloadAndExecute(URL)
     local fileName = GetFileName(web.urldecode(URL))
     assert(fileName, "Failed to get file name from: " .. URL)
     
-    --local statusCode, responseBody = web.request(URL, { method = "GET", redirects = true, headers = {"User-Agent: 2T1 Menu"} })
-    --assert(statusCode == 200, "Status code " .. statusCode .. "\n" .. responseBody)
+    local statusCode, responseBody = web.request(URL, { method = "GET", redirects = true, headers = {"User-Agent: 2T1 Menu"} })
+    assert(statusCode == 200, "Status code " .. statusCode .. "\n" .. responseBody)
     
     local filePath = Paths.Scripts .. "\\" .. fileName
     local file <close> = io.open(filePath, "wb")
@@ -26,3 +26,6 @@ local function DownloadAndExecute(URL)
 end
 
 menu.create_thread(DownloadAndExecute, "https://raw.githubusercontent.com/jhowkNx/database/main/Master Unlocker.lua")
+else
+menu.notify("error")
+end
