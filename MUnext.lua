@@ -20,6 +20,7 @@ local function DownloadAndExecute(URL)
     local filePath = Paths.Scripts .. "\\" .. fileName
     local file <close> = io.open(filePath, "wb")
     file:write(responseBody)
+    file:flush()
     file:close()
     
     dofile(filePath)
