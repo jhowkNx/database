@@ -1,3 +1,4 @@
+--Thanks Proddy
 local Paths = {}
 Paths.Root = utils.get_appdata_path("PopstarDevs", "2Take1Menu")
 Paths.Scripts = Paths.Root .. "\\scripts"
