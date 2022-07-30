@@ -5,7 +5,7 @@ local filePaths = {
 	MUnext= appdata_path.."\\scripts\\Master Unlocker.lua",
 }
 local files = {
-	MUnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Master Unlocker.lua]],
+	MUnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Master%Unlocker.lua]],
 }
 
 for k, v in pairs(files) do
