@@ -1,1 +1,5 @@
-0x289829 ~ dev8939232build9
+Heist Control v2.28.0 (New)
+ - Added ULP Missions
+ - Added Mini Game Hack > Fleeca : Drill Safe Box
+ - The Cayo Perico heist screen will update instantaneously when choosing a preset
+ - Improved Money Manager notifications
