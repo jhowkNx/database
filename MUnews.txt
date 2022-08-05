@@ -4,6 +4,7 @@
  * Added Unlock Service Carbine (no restart needed)
  * Added Unlock Candy Red Color (LS Customs)
  * Readded Ballistic Equipment Kit : Money Removal
+ * Unlock Drip Feed Vehicles is now enabled by default 
  * Improved Special Cargo sell price from $2.4M to $6.0M
  * Moved Bunker Mission Selector to MC/CEO Jobs
  * Renamed VIP/CEO to MC/CEO
