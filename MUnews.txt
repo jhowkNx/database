@@ -1,14 +1,10 @@
-- Added Auto Update ~ http required
-- Added Unlock Criminal Enterprise content
-   * Clothings
-   * Accessories
-   * Hats
-   * Masks
-   * Flip-Flops
-   * Various others items will only be accessed through your wardrobe
-* To unlock M16/Service Carbine permanent use Unlock all DLCs then restart gta.
-
-- Improved Bunker Unlocks
-   * Now unlocks Platinum and Gold colors
-- Adjusted Special Cargo values
-- Removed LSC vehicles sales CD
+# Master Unlocker 1.28.0 (New)
+ * Added Warehouse Sell Missions (MC/CEO Jobs)
+ * Added Criminal Enterprise DLC tab ~ to be more organized
+ * Added Unlock Service Carbine (no restart needed)
+ * Added Unlock Candy Red Color (LS Customs)
+ * Readded Ballistic Equipment Kit : Money Removal
+ * Improved Special Cargo sell price from $2.4M to $6.0M
+ * Moved Bunker Mission Selector to MC/CEO Jobs
+ * Renamed VIP/CEO to MC/CEO
+ * Removed Collectibles > Sleeping LS Radio Tower
