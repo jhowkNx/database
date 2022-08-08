@@ -1,5 +1,7 @@
-Heist Control v2.28.0 (New)
- - Added ULP Missions
- - Added Mini Game Hack > Fleeca : Drill Safe Box
- - The Cayo Perico heist screen will update instantaneously when choosing a preset
- - Improved Money Manager notifications
+# Feature improvement update for Heist Control (2.29.0)
+## Instant Finish has been improved
+- Instant Finish options have been turned into toggle (Loop)
+- Instant Finish for Doomsday is now separate from others to avoid conflicts and bugs.
+
+- Fixed a bug that allowed the script to be launched without the Native trusted mode flag being enabled.
+- Various notifications have been improved
