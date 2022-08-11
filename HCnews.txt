@@ -1,3 +1,3 @@
 # Version 2.29.2 (New)
-- This update aims to prevent the "North Massion" teleport bug from happening when loading the script
+- This update aims to prevent the "North Mansion" teleport bug from happening when loading the script
 - Also fixed a problem with the Infinite Bag
