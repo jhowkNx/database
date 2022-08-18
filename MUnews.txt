@@ -1,11 +1,22 @@
-# Master Unlocker 1.28.0 (New)
- * Added Warehouse Sell Missions (MC/CEO Jobs)
- * Added Criminal Enterprise DLC tab ~ to be more organized
- * Added Unlock Service Carbine (no restart needed)
- * Added Unlock Candy Red Color (LS Customs)
- * Readded Ballistic Equipment Kit : Money Removal
- * Unlock Drip Feed Vehicles is now enabled by default 
- * Improved Special Cargo sell price from $2.4M to $6.0M
- * Moved Bunker Mission Selector to MC/CEO Jobs
- * Renamed VIP/CEO to MC/CEO
- * Removed Collectibles > Sleeping LS Radio Tower
+# Master Unlocker 1.29.0 (New)
+- Added Instant Finish
+   * Special Cargo (Buy)
+   * Special Cargo (Sell)
+   * MC Business (Sell)
+   * Air Cargo (Sell)
+ - Added Disable Transaction Error MSG
+ - Added Added Sell Air Cargo 6.0M
+ - Added Instant Lupe Resupply
+ - Added MC Sell Multiplier
+ - Added Bunker Sell Multiplier
+ - Added Speed Up MC Production (Requires to switch session)
+ - Added Instant Trigger Bought Resupply (MC)
+ - Added Disable Biker Bar Mission CD
+ - Added Disable Yohan NightClub Mission CD
+ - Added Disable Bunker Ammu-Nation Missions CD
+ - Updated Unlock All Contacts
+ - Improved & Added more collectibles
+ - Updated Unlock All DLCs
+ - General tab organization
+ - Removed Yatch Missions (moved to HC3)
+ - Removed Lammar Missions (moved to HC3)
