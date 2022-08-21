@@ -1,22 +1,14 @@
-# Master Unlocker 1.29.0 (New)
-- Added Instant Finish
-   * Special Cargo (Buy)
-   * Special Cargo (Sell)
-   * MC Business (Sell)
-   * Air Cargo (Sell)
- - Added Disable Transaction Error MSG
- - Added Added Sell Air Cargo 6.0M
- - Added Instant Lupe Resupply
- - Added MC Sell Multiplier
- - Added Bunker Sell Multiplier
- - Added Speed Up MC Production (Requires to switch session)
- - Added Instant Trigger Bought Resupply (MC)
- - Added Disable Biker Bar Mission CD
- - Added Disable Yohan NightClub Mission CD
- - Added Disable Bunker Ammu-Nation Missions CD
- - Updated Unlock All Contacts
- - Improved & Added more collectibles
- - Updated Unlock All DLCs
- - General tab organization
- - Removed Yatch Missions (moved to HC3)
- - Removed Lammar Missions (moved to HC3)
+Master Unlocker 1.30.0 [NEW]
+ - Added Vehicle Cargo
+   * Vehicle Cargo Range
+     * Top Range
+     * Mid Range
+     * Standard Range
+     * Unknown
+ - Added Disable Sell CD (Vehicle Cargo)
+ - Added Trigger NightClub Production
+ - Added MC Sell - Single Big Truck (thx @Rockstar North#6880)
+ - Updated Collectibles tab
+ - Updated "Add Cosmetic Money : CEO Office"
+ - Moved "Unlock All Daily Objectives" to Unlocks > Others
+ - "Disable Transaction MSG" is now off by default
