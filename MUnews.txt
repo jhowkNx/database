@@ -7,7 +7,7 @@ Master Unlocker 1.31.0 (NEW)
 
 - Added Sell NightClub 8M
 - Added Disable NightClub Sell CD 
-- Added Bunker Production
+- Added Trigger Bunker Production
 - Added Sprunk to Refill Inventory
 - Added Vehicle Cargo Multiplier
 - Updated Warehouse Sell > 10M
