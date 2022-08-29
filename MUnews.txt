@@ -1,14 +1,14 @@
-Master Unlocker 1.30.0 [NEW]
- - Added Vehicle Cargo
-   * Vehicle Cargo Range
-     * Top Range
-     * Mid Range
-     * Standard Range
-     * Unknown
- - Added Disable Sell CD (Vehicle Cargo)
- - Added Trigger NightClub Production
- - Added MC Sell - Single Big Truck (thx @Rockstar North#6880)
- - Updated Collectibles tab
- - Updated "Add Cosmetic Money : CEO Office"
- - Moved "Unlock All Daily Objectives" to Unlocks > Others
- - "Disable Transaction MSG" is now off by default
+Master Unlocker 1.31.0 (NEW)
+
+ - Instant Finish
+   * Bunker (Sell)
+   * NightClub (Sell)
+   * Ammu-Nation Delivery
+
+- Added Sell NightClub 8M
+- Added Disable NightClub Sell CD 
+- Added Bunker Production
+- Added Sprunk to Refill Inventory
+- Added Vehicle Cargo Multiplier
+- Updated Warehouse Sell > 10M
+- Updated Trigger Bought Resupply to support Bunker Supplies
