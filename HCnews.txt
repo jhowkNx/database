@@ -1,3 +1,3 @@
-# Version 2.29.2 (New)
-- This update aims to prevent the "North Mansion" teleport bug from happening when loading the script
-- Also fixed a problem with the Infinite Bag
+# Version 2.29.3 (New)
+- This update brings improvements to Instant Finish
+- Increased a bit the payout for Cayo Ultra Preset
