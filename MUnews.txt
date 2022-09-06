@@ -1,14 +1,10 @@
-Master Unlocker 1.31.0 (NEW)
+Master Unlocker 1.32.0 (NEW)
 
- - Instant Finish
-   * Bunker (Sell)
-   * NightClub (Sell)
-   * Ammu-Nation Delivery
+ - Added Remote Access
+    * Master Control Terminal
+    * Terrorbyte Touchscreen Terminal
 
-- Added Sell NightClub 8M
-- Added Disable NightClub Sell CD 
-- Added Trigger Bunker Production
-- Added Sprunk to Refill Inventory
-- Added Vehicle Cargo Multiplier
-- Updated Warehouse Sell > 10M
-- Updated Trigger Bought Resupply to support Bunker Supplies
+ - Added Disable High Demand Bonus
+ - Added Start CEO
+ - Added 2Take1 encryption
+ - Removed duplicated collectibles
