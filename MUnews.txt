@@ -1,10 +1,25 @@
-Master Unlocker 1.32.0 (NEW)
+Master Unlocker 1.33.0 (NEW)
+# Warehouse (Special Cargo)
+- Added Buy Normal Crates
+   * Medical Supplies
+   * Tobacco & Alcohol
+   * Art & Antiques
+   * Electronic Goods
+   * Weapons & Ammo
+   * Narcotics
+   * Gemstones
+   * Animal Materials
+   * Counterfeit Goods
+   * Jewelry
+   * Bullion
 
- - Added Remote Access
-    * Master Control Terminal
-    * Terrorbyte Touchscreen Terminal
-
- - Added Disable High Demand Bonus
- - Added Start CEO
- - Added 2Take1 encryption
- - Removed duplicated collectibles
+# Remote Access (Improved)
+  - Added Open Bunker App
+  - Added Open AirCargo App
+  - Added Open NightClub App
+ 
+# Others
+  - Added Special Cargo submenu (& moved related options)
+  - Added option to obtain max crates by a single purchase
+  - Added Change MC/Office first & 2nd name
+  - Removed unused functions (code)
