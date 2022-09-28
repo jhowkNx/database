@@ -1,25 +1,15 @@
-Master Unlocker 1.33.0 (NEW)
-# Warehouse (Special Cargo)
-- Added Buy Normal Crates
-   * Medical Supplies
-   * Tobacco & Alcohol
-   * Art & Antiques
-   * Electronic Goods
-   * Weapons & Ammo
-   * Narcotics
-   * Gemstones
-   * Animal Materials
-   * Counterfeit Goods
-   * Jewelry
-   * Bullion
+Master Unlocker 1.34.0 (NEW)
+## Changelog
+ - Character Statistics Manager
+   - Added Longest Single Game Session (Limited)
+   - Added Average Time Per Session (Limited)
 
-# Remote Access (Improved)
-  - Added Open Bunker App
-  - Added Open AirCargo App
-  - Added Open NightClub App
- 
-# Others
-  - Added Special Cargo submenu (& moved related options)
-  - Added option to obtain max crates by a single purchase
-  - Added Change MC/Office first & 2nd name
-  - Removed unused functions (code)
+ - Special Tops
+   - Added Open Wheel Sponsor Tee
+
+ - Added Back to Story Mode
+ - Added Money Transfer
+ - Added option to reset EVERYTHING (except money) - Ranks, stats, and all characters will be wiped/reset to the original
+ - Instant Finish MC Business will no longer be a loop
+ - Fixed MC Business selling products beyond what it has, causing users to receive an exorbitant amount as payment and then being ignored.
+ - Miscellaneous improvements
