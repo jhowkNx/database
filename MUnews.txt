@@ -1,6 +1,5 @@
-Master Unlocker 1.35.0 (NEW)
-## Changelog
-
+ Master Unlocker 1.35.0 (NEW)
+   > Changelog
  - Added Unlock Strickler Hat (Unlocks > Clothings)
  - Added Unlock R Paragon Armored (Unlocks > Vehicles)
  - Updated Trick or Treat collectible
