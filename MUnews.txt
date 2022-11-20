@@ -1,15 +1,9 @@
-Master Unlocker 1.34.0 (NEW)
+Master Unlocker 1.35.0 (NEW)
 ## Changelog
- - Character Statistics Manager
-   - Added Longest Single Game Session (Limited)
-   - Added Average Time Per Session (Limited)
 
- - Special Tops
-   - Added Open Wheel Sponsor Tee
-
- - Added Back to Story Mode
- - Added Money Transfer
- - Added option to reset EVERYTHING (except money) - Ranks, stats, and all characters will be wiped/reset to the original
- - Instant Finish MC Business will no longer be a loop
- - Fixed MC Business selling products beyond what it has, causing users to receive an exorbitant amount as payment and then being ignored.
- - Miscellaneous improvements
+ - Added Unlock Strickler Hat (Unlocks > Clothings)
+ - Added Unlock R Paragon Armored (Unlocks > Vehicles)
+ - Updated Trick or Treat collectible
+ - Moved "Remove Money > Ballistic Equipment Kit" to Money Transfer
+ - Moved "Wipe/Reset Character" to Character Statistics Manager
+ - General Improvements
