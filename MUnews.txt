@@ -1,8 +1,5 @@
- Master Unlocker 1.35.0 (NEW)
+
+ Master Unlocker 1.36.0 [NEW]
    > Changelog
- - Added Unlock Strickler Hat (Unlocks > Clothings)
- - Added Unlock R Paragon Armored (Unlocks > Vehicles)
- - Updated Trick or Treat collectible
- - Moved "Remove Money > Ballistic Equipment Kit" to Money Transfer
- - Moved "Wipe/Reset Character" to Character Statistics Manager
- - General Improvements
+ - Added Unlock Pacific Standard Sweater (Unlocks > Clothings)
+ - "Unlock Drip Feed Vehicles" from Criminal Enterprise DLC has been disabled.
