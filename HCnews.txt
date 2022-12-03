@@ -1,4 +1,3 @@
-   ¤ Version 2.29.4 [New]
 - Improved Instant Finish function
 - Adjusted Ultra Preset Payout
 - Minor improvements
