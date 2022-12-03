@@ -1,3 +1,4 @@
-# Version 2.29.3 (New)
-- This update brings improvements to Instant Finish
-- Increased a bit the payout for Cayo Ultra Preset
+   ¤ Version 2.29.4 [New]
+- Improved Instant Finish function
+- Adjusted Ultra Preset Payout
+- Minor improvements
