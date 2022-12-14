@@ -1,9 +1,9 @@
 
  Master Unlocker 1.37.0 [NEW]
 ## Changelog
-  -  Added support for GTAO 1.64
+  - Added support for GTAO 1.64
   - Added Drug Wars DLC to Unlocks
-    -  Added Unlock Drip Feed Vehicles
+    - Added Unlock Drip Feed Vehicles
     - Added Unlock Drip Feed Content - (Unlocks tattoos, clothings, masks and some other exclusive accessories).
  - Vehicle Cargo has been greatly improved - (Thanks to a friend, @Pedro9558)
    * It now contains a huge list of all vehicles that can be added to your depot.
