@@ -1,23 +1,16 @@
 
- Master Unlocker 1.37.0 [NEW]
-## Changelog
-  - Added support for GTAO 1.64
-  - Added Drug Wars DLC to Unlocks
-    - Added Unlock Drip Feed Vehicles
-    - Added Unlock Drip Feed Content - (Unlocks tattoos, clothings, masks and some other exclusive accessories).
- - Vehicle Cargo has been greatly improved - (Thanks to a friend, @Pedro9558)
-   * It now contains a huge list of all vehicles that can be added to your depot.
- - Renamed "Money Transfer" to Cash Manager
- - Renamed "Character Statistics Manager" to Character Manager
- - Renamed "CEO/MC Helper" to VIP/CEO/MC Helper
- - Renamed "Disable Transaction Error MSG" to Disable Transaction Error Alert
- - Created a new group "Maximize"
- - Created a new group "Statistic Manager" for Character Manager
- - Created a new group "Trigger Options" for VIP/CEO/MC - Helper
- - Created a new group "Disable Cooldown (CD)" for VIP/CEO/MC - Helper
- - Moved "Maximize NightClub Popularity & "Maximize Inventory" to Maximize Options
- - Moved "Disable Transaction Error Alert" to Services
- - Moved various cooldown disablers to "VIP/CEO/MC - Helper" > Disable Cooldown (CD)
- - Fixed a small issue with Unlock All DLCs
- - Disabled "Return to Story Mode"
- - Disabled "Remote Access (Beta)"
+ Master Unlocker 1.38.0 [NEW]
+   # Changelog
+ - Added Drug Wars Awards - (Unlocks Downtown Cab CO. Livery & Acid Lab Equipment Upgrade)
+ - Added Unlock Drip Feed Custom Garage/Apartament (Enabled by default, check at Dysnaty8)
+ - Added Disable Dax Job Cooldown (VIP/CEO/MC Helper > Cooldown Disablers)
+ - Added a custom option to choose how many items you want to buy in a Special Cargo buy mission
+ - Updated and added a lot of missing clothing to Drug Wars > Unlock Drip Feed Content
+ - Updated Christmas Unlocks/Content
+ - Adjusted Modify Special Cargo price from $2M & $10M to $6M.
+ - Disable Transaction Error Alert now is enabled by default
+ - Remove Orbital Cannon CD become a loop feature
+ - Minor tweaks and bug fixes
+   # Re-Enabled
+  * Remote Access (Beta)
+  * Return to Story Mode (Moved to > Services)
