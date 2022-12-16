@@ -1,6 +1,4 @@
-
- Master Unlocker 1.38.0 [NEW]
-   # Changelog
+     # Master Unlocker 1.38.0 [NEW]
  - Added Drug Wars Awards - (Unlocks Downtown Cab CO. Livery & Acid Lab Equipment Upgrade)
  - Added Unlock Drip Feed Custom Garage/Apartament (Enabled by default, check at Dysnaty8)
  - Added Disable Dax Job Cooldown (VIP/CEO/MC Helper > Cooldown Disablers)
