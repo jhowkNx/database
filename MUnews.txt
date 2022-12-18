@@ -1,14 +1,4 @@
-     # Master Unlocker 1.38.0 [NEW]
- - Added Drug Wars Awards - (Unlocks Downtown Cab CO. Livery & Acid Lab Equipment Upgrade)
- - Added Unlock Drip Feed Custom Garage/Apartment (Enabled by default, check at Dysnaty8)
- - Added Disable Dax Job Cooldown (VIP/CEO/MC Helper > Cooldown Disablers)
- - Added a custom option to choose how many items you want to buy in a Special Cargo buy mission
- - Updated and added a lot of missing clothing to Drug Wars > Unlock Drip Feed Content
- - Updated Christmas Unlocks/Content
- - Adjusted Modify Special Cargo price from $2M & $10M to $6M.
- - Disable Transaction Error Alert now is enabled by default
- - Remove Orbital Cannon CD become a loop feature
- - Minor tweaks and bug fixes
-   # Re-Enabled
-  * Remote Access (Beta)
-  * Return to Story Mode (Moved to > Services)
+     # Master Unlocker 1.39.0 [NEW]
+ - Added missing bool stat for Drug Wars Awards
+ - Updated native responsible for unlocking all dlcs and various other items.
+ - Fixed small bugs
