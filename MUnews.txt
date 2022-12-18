@@ -1,4 +1,3 @@
-     # Master Unlocker 1.39.0 [NEW]
  - Added missing bool stat for Drug Wars Awards
  - Updated native responsible for unlocking all dlcs and various other items.
  - Fixed small bugs
