@@ -1,3 +1,2 @@
- - Added missing bool stat for Drug Wars Awards
- - Updated native responsible for unlocking all dlcs and various other items.
- - Fixed small bugs
+ - Updated The Contract Awards
+ - Minor bug fixes
