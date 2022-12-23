@@ -21,4 +21,4 @@
  - Fixed outdated collectibles
  - The Donation page has been improved and now contains USD option
  
-################ Have a nice Christmas!
+#     Have a nice Christmas!
