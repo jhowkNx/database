@@ -1,9 +1,5 @@
- # Added the 3 new contents for Drug Wars DLC
-   - Added Gun Van
-   - Added Street Dealer
-   - Added Taxi Work
-
-  - Minor bug fixes
- 
- 
-#     Have a nice Christmas!
+  - Added Stash House
+  - Improved Gun Van & Street Dealer
+  
+  
+#     Happy Christmas!
