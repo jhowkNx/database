@@ -1,24 +1,9 @@
- - Added High Demand Bonus Control (VIP/CEO/MC)
-    # Support for:
-      * MC
-      * NightClub
-      * Bunker
-      * Special Cargo
-      * Air Cargo
+ # Added the 3 new contents for Drug Wars DLC
+   - Added Gun Van
+   - Added Street Dealer
+   - Added Taxi Work
 
-    # Adjustments
-      - Modify NightClub Sell from 8M to 4M (Reduced)
-      - Modify AirCargo Price from 6M to 8M (Increased)
-
- - Added Snowmen Collectible
- - Added Request Mini Tank
- - Added Request RC Bandito
- - Added custom option for Air Cargo price modifier
- - Increase Special Cargo Sell will support 2, 5 and 111 crates to be sold
- - Bypass Christmas Clothing from now it will be active by default
- - Moved "Bypass Christmass Clothing" to Tunables
- - Improved "Services" based on feedback from @MikeKillerRock
- - Fixed outdated collectibles
- - The Donation page has been improved and now contains USD option
+  - Minor bug fixes
+ 
  
 #     Have a nice Christmas!
