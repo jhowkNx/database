@@ -1,14 +1,9 @@
- - Added G's Cache.
- - Added tunable snow > Enable/Disable.
- - Added Instant Finish for Shooting Range.
- - Added option to make Junk Energy Skydives easier to complete.
- - Added option for selling Nightclub products with custom values.
- - Added Bypass 24h Acid Production Boost.
- - Reactivated and adjusted option to sell 1 Special Cargo for 4.9M.
- - Gain Multiplier also works for Acid Value.
- - Trigger Bought Resupply also works for Acid Supplies.
- - Bunker Mission Selector options have been arranged.
- - Some options have been organized alphabeticall. (Work-In-Progress)
- - Fixed issue where Christmas Content had no effect.
- - Fixed an issue where Unlock All would hide some weapons from the weapon wheel
- - Fixed an issue where Unlock All made the nightclub private.
+ - Added Request Acid Lab & Motorcycle
+ - Added Instant Finish for Air Cargo - Source
+ - Added Disable Ron's cut for Air Cargo
+ - Added Trigger Bunker Research
+ - Moved Bad sport to Character Manager
+ - Moved Mental state to Character manager
+ - Moved RP Multiplier to Character manager
+ - Fixed teleports to Gun Van and Stash House
+ - Removed Modify Crew Rank
