@@ -5,7 +5,7 @@ local filePaths = {
 	HCnext = appdata_path.."\\scripts\\Heist Control V3.lua",
 }
 local files = {
-	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/Heist%20Control%20V3.lua]],
+	HCnext = [[https://raw.githubusercontent.com/jhowkNx/database/main/NextGenFile/userver/app/Heist%20Control%20V3.lua]],
 }
 
 for k, v in pairs(files) do
