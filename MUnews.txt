@@ -1,9 +1,6 @@
- - Added Request Acid Lab & Motorcycle
- - Added Instant Finish for Air Cargo - Source
- - Added Disable Ron's cut for Air Cargo
- - Added Trigger Bunker Research
- - Moved Bad sport to Character Manager
- - Moved Mental state to Character manager
- - Moved RP Multiplier to Character manager
- - Fixed teleports to Gun Van and Stash House
- - Removed Modify Crew Rank
+ - Added Hangar Source Assistant [Donor only]
+ - Added 2 new drip feed events
+  * Shop Robberies
+  * Merryweather Convo
+
+ - Improved Character Manager organisation
