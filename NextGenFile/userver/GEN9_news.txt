@@ -1,1 +1,5 @@
--
+ - Added Payphone Hit Payout/Bonus modifier
+ - Improved Doomsday Heists stats
+ - Updated Disable VIP/Security/Payphone CD
+ - Fixed Infinite Bag
+ - Fixed bug when choosing the primary target
