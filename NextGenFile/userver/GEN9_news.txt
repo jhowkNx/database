@@ -1,5 +1,5 @@
- - Added Payphone Hit Payout/Bonus modifier
- - Improved Doomsday Heists stats
- - Updated Disable VIP/Security/Payphone CD
- - Fixed Infinite Bag
- - Fixed bug when choosing the primary target
+ - Updated Vehicle Speed options
+ - Removed smart payout message for Cayo Perico
+ - Fixed Edit/Check Payout for Cayo Perico
+ - Fixed timing from Reminders were not synced correctly.
+ - Fixed issue when translating certain strings
