@@ -1,6 +1,12 @@
- - Added Hangar Source Assistant [Donor only]
- - Added 2 new drip feed events
-  * Shop Robberies
-  * Merryweather Convo
+-  Added Acid Lab options
+   * Acid Lab Product Capacity
+   * Acid Lab Price
+   * Acid Lab Price (Upgraded)
+   * Acid Booster Limit
+   * Resupply Crate Value
 
- - Improved Character Manager organisation
+ * Added Trigger Acid Lab Production
+ * Added Save Settings
+ * Added Export Mixed Goods CD removal
+ * Updated Unlock Alien Tattoo to be unlocked in the tattoo shop
+ * Updated Drug Wars Awards to unlock more tattoos
