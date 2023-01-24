@@ -1,12 +1,23 @@
--  Added Acid Lab options
-   * Acid Lab Product Capacity
-   * Acid Lab Price
-   * Acid Lab Price (Upgraded)
-   * Acid Booster Limit
-   * Resupply Crate Value
+  # Character Manager 
+    - Added Competitive Stats 
+    - Added Races, Darts, Deathmatches, Tennis, Parachuting & Golf
+    - Added Total Earned
 
- * Added Trigger Acid Lab Production
- * Added Save Settings
- * Added Export Mixed Goods CD removal
- * Updated Unlock Alien Tattoo to be unlocked in the tattoo shop
- * Updated Drug Wars Awards to unlock more tattoos
+  # Acid Lab
+   - Added Instant Sell
+   - Added Source Assistant
+
+ - Added Unlock Dildodude Camo for Micro SMG & Pump Shotgun
+ - Added Bring Gun Van to me (Credits to Rimuwuu)
+ - Added Drop RP (based on Meteor Script)
+ - Added Give Collectibles (based on Meteor Script)
+ - Added Bypass SP Prologue (Credits to Toph Script)
+ - Added Enable Snowmen & Trick or Treat collectibles
+ - Added Bunker & Hangar Total Earned Stat
+ - Improved VIP/CEO/MC - Helper
+ - Improved Auto Resupply Warehouse
+ - Improved Back to Story Mode
+
+- Code Improvements
+   - Improved function that detects a non-GTAO compatible version
+   - The script will no longer disable after joining story mode
