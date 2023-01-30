@@ -1,1 +1,1 @@
-vehicle_hash_0x060606
+vehicle_hash_0x060606xx
