@@ -1,1 +1,1 @@
-vehicle_hash_0x12x12
+vehicle_hash_0x12x12xx
