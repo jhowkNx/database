@@ -1,23 +1,8 @@
-  # Character Manager 
-    - Added Competitive Stats 
-    - Added Races, Darts, Deathmatches, Tennis, Parachuting & Golf
-    - Added Total Earned
-
-  # Acid Lab
-   - Added Instant Sell
-   - Added Source Assistant
-
- - Added Unlock Dildodude Camo for Micro SMG & Pump Shotgun
- - Added Bring Gun Van to me (Credits to Rimuwuu)
- - Added Drop RP (based on Meteor Script)
- - Added Give Collectibles (based on Meteor Script)
- - Added Bypass SP Prologue (Credits to Toph Script)
- - Added Enable Snowmen & Trick or Treat collectibles
- - Added Bunker & Hangar Total Earned Stat
- - Improved VIP/CEO/MC - Helper
- - Improved Auto Resupply Warehouse
- - Improved Back to Story Mode
-
-- Code Improvements
-   - Improved function that detects a non-GTAO compatible version
-   - The script will no longer disable after joining story mode
+ - Added Force Cloud Save (Services)
+ - Added Unlock High Flyer Parachute Bag (Unlocks > Others)
+ - Re-added Instant Source for Air Cargo
+ - Updated Globals, SE & Natives for GTAO 1.66
+ - Fixed crash when using Bypass SP Prologue
+ - Fixed beast typo
+ - Removed a few RP multiplier options
+ - Minor script improvements
