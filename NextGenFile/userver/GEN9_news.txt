@@ -1,6 +1,6 @@
  # Casino Heist
   * Added support for hard difficulty 
-  * Added to Smart Payout feature that automatically chooses the Lower Buyer
+  * Added feature to Smart Payout that automatically chooses the Lower Buyer
   * Added option to choose Buyer
   * Added option to choose Casino entry/exit method
   * Added option to choose Casino entry/exit clothing (BigCon)
