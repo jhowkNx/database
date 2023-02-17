@@ -1,1 +1,1 @@
-ped_prop_valid
+ped_prop_valid_no0
