@@ -1,8 +1,14 @@
- - Added Force Cloud Save (Services)
- - Added Unlock High Flyer Parachute Bag (Unlocks > Others)
- - Re-added Instant Source for Air Cargo
- - Updated Globals, SE & Natives for GTAO 1.66
- - Fixed crash when using Bypass SP Prologue
- - Fixed beast typo
- - Removed a few RP multiplier options
- - Minor script improvements
+### V1.54.1
+ - Bugfixes
+--------------------------------------------------------
+### V1.54.0
+  - Added Modify bunker maximum capacity
+  - Added USB Stick Collectible
+  - Added Unlock Criminal Mastermind Award
+  - Added Unlock Christmas free vehicles
+  - Added Unlock Pajamas (Loungewear)
+  - Added Start MC (Credits to @IceDoomfist)
+  - Added Unlock 72 unique (Login Event)
+  - Re-Added "Wipe/Reset Character" (No longer need to restart the game)
+  - Improved general organisation (Big feedback from @K1LL3RDragon)
+  - Fixed some possibility of crashes
