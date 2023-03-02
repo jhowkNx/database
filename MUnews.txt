@@ -1,14 +1,9 @@
-### V1.54.1
- - Bugfixes
---------------------------------------------------------
-### V1.54.0
-  - Added Modify bunker maximum capacity
-  - Added USB Stick Collectible
-  - Added Unlock Criminal Mastermind Award
-  - Added Unlock Christmas free vehicles
-  - Added Unlock Pajamas (Loungewear)
-  - Added Start MC (Credits to @IceDoomfist)
-  - Added Unlock 72 unique (Login Event)
-  - Re-Added "Wipe/Reset Character" (No longer need to restart the game)
-  - Improved general organisation (Big feedback from @K1LL3RDragon)
-  - Fixed some possibility of crashes
+~~~ v1.55.0
+  - Added Give USB Stick
+  - Added Ms.Baker Job CD (Cooldown Disabler)
+  - Updated a few globals related to the Drug Wars DLC
+  - Reduced Air Cargo $8M to $4M
+  - Removed Unlock Drip Feed Eclipse Blvd Garage
+  - Removed AirCargo 500M, 1B & 2B method
+  - Removed Bunker method
+  - Removed Casino Chips Cooldown
