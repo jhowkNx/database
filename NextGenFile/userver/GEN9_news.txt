@@ -1,20 +1,4 @@
- # Casino Heist
-  * Added support for hard difficulty 
-  * Added feature to Smart Payout that automatically chooses the Lower Buyer
-  * Added option to choose Buyer
-  * Added option to choose Casino entry/exit method
-  * Added option to choose Casino entry/exit clothing (BigCon)
-  * Added option to ignore when players don't press "ready" during payout percentage board
-  * Added option to set final board ready (use in conjunction with force ready)
-  * Improved feature that detects the presets available from Heist Control
-  * Improved payouts for heist members
-  * Improved instant finish
-
- # General
-  * Better support for GTAO 1.66
-  * Added option to remove the relative min/max cut limit for Classic Heists.
-  * Added Unlock all Doomsday Heists
-  * Improved Cayo Perico "Bag Size"
-  * Lang file changes: In this version, will be necessary to rename your old "HCLang.ini" file to "HC_Lang.ini"
-  * Improved script performance
-  * Various code improvements
+ - Added Force peds to run away/not (Credits to @Toph)
+ - Added missing strings for certain functions
+ - Remove some duplicate func lines internally
+ - Fixed crash when starting the script
