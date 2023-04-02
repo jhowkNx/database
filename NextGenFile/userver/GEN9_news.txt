@@ -1,5 +1,1 @@
- - Added Instant Hack BruteForce (Pacific Standard)
- - Added Freeze Pacific Standard Gains (Avoids money loss)
- - Added Unlock all Classic Heists
- - Added Request Kosatka
- - Fixed bug with auto_update string
+ - Added Drug Wars Last Dose missions
