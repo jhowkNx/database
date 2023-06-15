@@ -1,1 +1,1 @@
- - Added Drug Wars Last Dose missions
++ Added support for GTA Online 1.67
