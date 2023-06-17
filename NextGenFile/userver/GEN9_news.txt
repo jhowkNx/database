@@ -1,1 +1,3 @@
-+ Added support for GTA Online 1.67
+The following features have been fixed:
+  - Instant Finish for Cayo Perico & Contracts
+  - Instant Finish for Diamond Casino Heist - Aggressive
