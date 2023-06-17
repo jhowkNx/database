@@ -1,11 +1,2 @@
-~~~ v1.56.0
-+ General
-- Added Special Cargo Loop [5.9M | AFK] [Donor only]
-- [Re-Added] Car Sell 7.9
-- The features "Max Nighclub popularity, Disable Disable High Demand & Max Inventory Items" are toggleable and saveable in this update
-- Changed Bunker Multiplier (Limited at x3.0)
-- Disable transaction alert is built into the script and will no longer be an option
-
-+ We have disabled the following features to carefully check their detection level
-- Hangar Custom & 4M
-- High Demand Control (except disable option)
+~~~ v1.61.0
+Contains all updates based on donor version
