@@ -10,7 +10,7 @@
 
  - [San Andreas Mercenaries] : Added new missions
  - [Casino Heist] : Added toggle option for Low Buyer
- - [Casino Heist] : Added multiple teleport options [Thanks to @Tucco]
+ - [Casino Heist] : Added multiple teleport options [Thanks to @Tuco]
  - [Casino Heist] : Smart Payout will no longer change the Buyer to the Low LVL.
  - [General] : Visual adjustments were made based on feedback provided by [@k1ll3rdragon]
  - [General] : Improved Instant Finish for all available options
