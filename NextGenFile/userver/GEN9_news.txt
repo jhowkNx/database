@@ -1,3 +1,18 @@
-The following features have been fixed:
-  - Instant Finish for Cayo Perico & Contracts
-  - Instant Finish for Diamond Casino Heist - Aggressive
+  # [New] Friends Helper™
+    * The newest feature able to offer members/friends of your heist, a payment of 15Millions for any Classic Heist you host.
+
+  # Supports the following methods:
+    * The Fleeca Job [You and your friend get 15M]
+    * The Prison Break [Your friends get 15M]
+    * The Humane Labs Raid [Your friends get 15M]
+    * Series A Funding [Your friends get 15M]
+    * The Pacific Standard [Your friends get 15M]
+
+ - [San Andreas Mercenaries] : Added new missions
+ - [Casino Heist] : Added toggle option for Low Buyer
+ - [Casino Heist] : Added multiple teleport options [Thanks to @Tucco]
+ - [Casino Heist] : Smart Payout will no longer change the Buyer to the Low LVL.
+ - [General] : Visual adjustments were made based on feedback provided by [@k1ll3rdragon]
+ - [General] : Improved Instant Finish for all available options
+ - [General] : Applied several improvements along with various bug fixes. 
+ - [Doomsday] : Fixed bug when using Instant Finish and guest players get kicked out/buggy [Thanks @Silver for reporting]
