@@ -1,18 +1,20 @@
-  # [New] Friends Helper™
-    * The newest feature able to offer members/friends of your heist, a payment of 15Millions for any Classic Heist you host.
+  # Diamond Casino Heist
 
-  # Supports the following methods:
-    * The Fleeca Job [You and your friend get 15M]
-    * The Prison Break [Your friends get 15M]
-    * The Humane Labs Raid [Your friends get 15M]
-    * Series A Funding [Your friends get 15M]
-    * The Pacific Standard [Your friends get 15M]
+     * [Modified] : Crew driver & crew weapon along with their vehicles/weapons used in the heist.
+     * [Updated] : Smart Payout for Casino Heist.
+     * [Reactivate] : Low Level Buyer within the Smart Payout function.
+     * [Moved] : 'Hard Mode' & 'Final Board Ready' to the main page of the Casino Heist presets to be more accessible. 
+     * [Fixed] : Instant Hack - BruteForce for Pacific Standard
+     * [Fixed] : Casino Custom TP
+     * [Removed] : Features like "Force Ready" as it could cause certain bugs.
 
- - [San Andreas Mercenaries] : Added new missions
- - [Casino Heist] : Added toggle option for Low Buyer
- - [Casino Heist] : Added multiple teleport options [Thanks to @Tuco]
- - [Casino Heist] : Smart Payout will no longer change the Buyer to the Low LVL.
- - [General] : Visual adjustments were made based on feedback provided by [@k1ll3rdragon]
- - [General] : Improved Instant Finish for all available options
- - [General] : Applied several improvements along with various bug fixes. 
- - [Doomsday] : Fixed bug when using Instant Finish and guest players get kicked out/buggy [Thanks @Silver for reporting]
+   # Instant Finish
+     * After long tests, Instant Finish has been improved in many ways in order to always achieve Heist success.
+       * Please note that it will still depend on a good internet connection, not only yours, but the other players too to avoid script desync/lag.
+
+   # Friends Helper
+
+     * [Added] : Support for normal difficulty
+
+   # The Doomsday Heist
+     * [Changed] : The notifications for Mastermind (Doomsday) have been turned into hints.
