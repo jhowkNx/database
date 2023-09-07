@@ -1,20 +1,3 @@
-  # Diamond Casino Heist
-
-     * [Modified] : Crew driver & crew weapon along with their vehicles/weapons used in the heist.
-     * [Updated] : Smart Payout for Casino Heist.
-     * [Reactivate] : Low Level Buyer within the Smart Payout function.
-     * [Moved] : 'Hard Mode' & 'Final Board Ready' to the main page of the Casino Heist presets to be more accessible. 
-     * [Fixed] : Instant Hack - BruteForce for Pacific Standard
-     * [Fixed] : Casino Custom TP
-     * [Removed] : Features like "Force Ready" as it could cause certain bugs.
-
-   # Instant Finish
-     * After long tests, Instant Finish has been improved in many ways in order to always achieve Heist success.
-       * Please note that it will still depend on a good internet connection, not only yours, but the other players too to avoid script desync/lag.
-
-   # Friends Helper
-
-     * [Added] : Support for normal difficulty
-
-   # The Doomsday Heist
-     * [Changed] : The notifications for Mastermind (Doomsday) have been turned into hints.
+ - [Cayo Perico Heist] Fixed all Diamond presets where they were changing to Panther inappropriately
+ - [Cayo Perico Heist | Reset Heist] Adjustments have been made to prevent the user from getting stuck on the heist initial prep screen
+ - [Diamond Casino Heist] The "Dashboard Ready and Force Ready" features have been combined to be one. Tweaks of improvements have been made for better use. - Credits to @Pedro9558
