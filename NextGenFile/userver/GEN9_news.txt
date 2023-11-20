@@ -1,3 +1,8 @@
- - [Cayo Perico Heist] Fixed all Diamond presets where they were changing to Panther inappropriately
- - [Cayo Perico Heist | Reset Heist] Adjustments have been made to prevent the user from getting stuck on the heist initial prep screen
- - [Diamond Casino Heist] The "Dashboard Ready and Force Ready" features have been combined to be one. Tweaks of improvements have been made for better use. - Credits to @Pedro9558
+
+   *  Added Instant Finish V2 [Compatible with Classic Heists setups]
+   *  Added option to use blacklisted vehicles in Heists [Oppressor/Deluxo/Toreador/etc]
+   *  Smart Payout has been updated to support the double cash event for Doomsday ACT III
+   *  Improved some functions from the Ped Manipulator
+   *  Improved some Vehicle Speed features
+   *  'Leave session' feature has been replaced by 'Return to Story Mode'.
+   *  Removed the "Remove Cops Vehicles" feature from the Ped manipulator
