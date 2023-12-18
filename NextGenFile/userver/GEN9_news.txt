@@ -1,13 +1,2 @@
-
-
-3.10.296 [hotfix]
-   *  Fixes bug with "Return to story mode" function
-
-3.10.295
-   *  Added Instant Finish V2 [Compatible with Classic Heists setups]
-   *  Added option to use blacklisted vehicles in Heists [Oppressor/Deluxo/Toreador/etc]
-   *  Smart Payout has been updated to support the double cash event for Doomsday ACT III
-   *  Improved some functions from the Ped Manipulator
-   *  Improved some Vehicle Speed features
-   *  'Leave session' feature has been replaced by 'Return to Story Mode'.
-   *  Removed the "Remove Cops Vehicles" feature from the Ped manipulator
+3.11.312 [hotfix]
+   *  Fixed Instant Finish for Casino Heist - Aggressive Approach
