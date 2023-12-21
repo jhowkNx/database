@@ -1,2 +1,26 @@
-3.11.312 [hotfix]
-   *  Fixed Instant Finish for Casino Heist - Aggressive Approach
+[3.12.326]
+
+	 + Added The Chop Shop Robbery
+	  - The Cargo Ship Robbery
+		- The Gangbanger Robbery
+		- The Duggan Robbery
+		- The Podium Robbery
+		- The McTony Robbery
+	
+	+ Added Instant Beam Puzzle Hack (Podium Robbery)
+	+ Added Instant BruteForce Hack (Gangbanger Robbery)
+	+ Added Edit Max Sell Value
+	+ Added Edit Robbery Vehicle Hash
+	+ Added Robbery vehicle Status
+	+ Added Refresh Vehicles from Facader Planner
+	+ Added Unlock Awards
+	+ Added Fix Null Null bug
+	+ Added Disable Cooldown
+	
+	 # General
+     - In this version, the feature to detect the current version of GTAO has been improved to prevent future crashes.
+	 - Added option to save settings [currently only those in utilities]
+	 - Added Allow the script to disable transaction error [Utilities] - It is no longer a create_thread().
+	 - Added Allow the script to monitor globals & stats [Utilities] - It is no longer a create_thread().
+	 - Updated various strings
+	 - Removed unused strings
