@@ -1,26 +1,31 @@
-[3.12.326]
-
-	 + Added The Chop Shop Robbery
-	  - The Cargo Ship Robbery
-		- The Gangbanger Robbery
-		- The Duggan Robbery
-		- The Podium Robbery
-		- The McTony Robbery
-	
-	+ Added Instant Beam Puzzle Hack (Podium Robbery)
-	+ Added Instant BruteForce Hack (Gangbanger Robbery)
-	+ Added Edit Max Sell Value
-	+ Added Edit Robbery Vehicle Hash
-	+ Added Robbery vehicle Status
-	+ Added Refresh Vehicles from Facader Planner
-	+ Added Unlock Awards
-	+ Added Fix Null Null bug
-	+ Added Disable Cooldown
-	
-	 # General
-     - In this version, the feature to detect the current version of GTAO has been improved to prevent future crashes.
-	 - Added option to save settings [currently only those in utilities]
-	 - Added Allow the script to disable transaction error [Utilities] - It is no longer a create_thread().
-	 - Added Allow the script to monitor globals & stats [Utilities] - It is no longer a create_thread().
-	 - Updated various strings
-	 - Removed unused strings
+		Heist Control 3.13.407 - Fev/06/2024
+			[New]
+	  + Added Casino Work: Ms. Baker [Missions]
+	    - Fake News
+	    - Undisclosed Cargo
+	    - When the Chips are Down
+	    - Department of Defense
+	    - Safe Bet
+	    - Best Laid Plan
+	    - High Rollin'
+	    - Tour de Force
+	    - Judgment Call
+	    - Lost in Transit
+	    - Damage Control
+	    - Recovery Time
+	    - One Armed Bandits
+	    - Severance
+	    - Bargaining Chips
+	    - Under the Influence
+			[The Chop Shop Robbery]
+	   + Added Instant Finish for: All Robberies & Tow Truck Service
+	   + Added Set Max Vehicle Payout [$2,0M]
+	   + Added Force vehicles to be claimed
+	   + Added Fix for 'Active Robbery' bug
+	   + Added Reset The Shop Chop Robbery
+	   - Fixed issue where some vehicles were not being saved after finishing the Robbery
+	   - Removed the option to change vehicle hash as it could cause bugs in your Robbery
+			[General]
+	  + Added multiple teleport options
+	  + Added "miss-click" protection when using the "Reset" feature
+	  - Various UI improvements for easy access - Many thanks to @K1LL3RDragon
