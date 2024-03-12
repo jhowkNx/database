@@ -1,32 +1,21 @@
-[3.13.408] - Miscellaneous bug fixes
-		[3.13.407]
-			[New]
-	  + Added Casino Work: Ms. Baker [Missions]
-	    - Fake News
-	    - Undisclosed Cargo
-	    - When the Chips are Down
-	    - Department of Defense
-	    - Safe Bet
-	    - Best Laid Plan
-	    - High Rollin'
-	    - Tour de Force
-	    - Judgment Call
-	    - Lost in Transit
-	    - Damage Control
-	    - Recovery Time
-	    - One Armed Bandits
-	    - Severance
-	    - Bargaining Chips
-	    - Under the Influence
-			[The Chop Shop Robbery]
-	   + Added Instant Finish for: All Robberies & Tow Truck Service
-	   + Added Set Max Vehicle Payout [$2,0M]
-	   + Added Force vehicles to be claimed
-	   + Added Fix for 'Active Robbery' bug
-	   + Added Reset The Shop Chop Robbery
-	   - Fixed issue where some vehicles were not being saved after finishing the Robbery
-	   - Removed the option to change vehicle hash as it could cause bugs in your Robbery
-			[General]
-	  + Added multiple teleport options
-	  + Added "miss-click" protection when using the "Reset" feature
-	  - Various UI improvements for easy access - Many thanks to @K1LL3RDragon
+	[3.14.445]
+ + Added The Cluckin' Bell Raid
+    * Slush Fund
+	* Breaking and Entering
+	* Concealed Weapons
+	* Hit and Run
+	* Disorganized Crime
+	* Scene of the Crime
+	
++ Added Instant Finish
++ Added Set Payout $1.0M
++ Added Disable Cooldown
++ Added TP to Police Station
+	
+	[GENERAL]
+ + Added Team Live Hack [BETA]
+ + Added Skip Final Cutscenes [Apartment Heist] - Able to force "skip" of cutscenes when starting a final heist of apartment heists [Works for everyone, even heist of other people]
+ * Organized various script options
+ * Fixed translation errors
+ * After choosing any of Salvage Yard missions, will no longer collide with Cluckin' Bell Raid missions
+ ! Team Live Hack - Some texts are not yet available for translation at the moment.
