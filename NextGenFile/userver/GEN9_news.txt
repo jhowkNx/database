@@ -1,21 +1,9 @@
-	[3.14.445]
- + Added The Cluckin' Bell Raid
-    * Slush Fund
-	* Breaking and Entering
-	* Concealed Weapons
-	* Hit and Run
-	* Disorganized Crime
-	* Scene of the Crime
-	
-+ Added Instant Finish
-+ Added Set Payout $1.0M
-+ Added Disable Cooldown
-+ Added TP to Police Station
-	
-	[GENERAL]
- + Added Team Live Hack [BETA]
- + Added Skip Final Cutscenes [Apartment Heist] - Able to force "skip" of cutscenes when starting a final heist of apartment heists [Works for everyone, even heist of other people]
- * Organized various script options
- * Fixed translation errors
- * After choosing any of Salvage Yard missions, will no longer collide with Cluckin' Bell Raid missions
- ! Team Live Hack - Some texts are not yet available for translation at the moment.
+
+Heist Control [V3.15.520]
+
+  # Bugfixes
+
+  - Fixed issue when using Instant Finish for "The Duggan Robbery" the vehicle would not spawn in the Salvage Yard after using it
+  - Fixed "Vehicles Status" options from The Chop Shop Robbery
+  - Fixed "Set Max Vehicle Payout $2.0M" from The Chop Shop Robbery
+  - Fixed Instant Finish V2 [And also moved to have easy access]
