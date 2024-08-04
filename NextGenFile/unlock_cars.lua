@@ -1,4 +1,7 @@
--- Script Tunable: Desbloqueio de Carros com Função Personalizada e Segurança
+-- Define a função wait para usar system.wait
+wait = system.wait
+
+-- Script Tunable: Desbloqueio de Carros com Verificação de Globais
 
 -- Função para gerar uma chave secreta única
 local function GenerateSecretKey()
@@ -18,6 +21,11 @@ local function ProtectedSetGlobal()
     local function internal_set_global(index, value)
         if secret_key then
             script.set_global_i(index, value)
+            -- Verificação: Obtenha o valor após definir para garantir que foi atualizado
+            local current_value = script.get_global_i(index)
+            if current_value ~= value then
+                error("Falha ao atualizar global: " .. tostring(index) .. ". Valor atual: " .. tostring(current_value))
+            end
         else
             error("Tentativa de uso não autorizado da função de definição de globais")
         end
@@ -37,8 +45,10 @@ function UnlockCars()
     end
 end
 
--- Loop contínuo para garantir que os carros permaneçam desbloqueados
-while true do
-    UnlockCars()
-    wait(1000) -- 1000 ms = 1 segundo
-end
+-- Executa o loop contínuo dentro de uma thread
+menu.create_thread(function()
+    while true do
+        UnlockCars()
+        wait(1000) -- 1000 ms = 1 segundo
+    end
+end)
