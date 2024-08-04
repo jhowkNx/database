@@ -40,9 +40,7 @@ local SecureSetGlobal = ProtectedSetGlobal()
 
 -- Função para desbloquear carros utilizando a função personalizada
 function UnlockCars()
-    for dft = 35629, 35643 do
-        SecureSetGlobal(262145 + dft, 1) -- Ativa o valor para desbloquear o carro correspondente
-    end
+        SecureSetGlobal(262145 + 33390, 1) -- Ativa o valor para desbloquear o carro correspondente
 end
 
 -- Executa o loop contínuo dentro de uma thread
