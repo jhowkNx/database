@@ -1,9 +1,4 @@
 
-Heist Control [V3.15.520]
+Heist Control [V3.16.577]
 
-  # Bugfixes
-
-  - Fixed issue when using Instant Finish for "The Duggan Robbery" the vehicle would not spawn in the Salvage Yard after using it
-  - Fixed "Vehicles Status" options from The Chop Shop Robbery
-  - Fixed "Set Max Vehicle Payout $2.0M" from The Chop Shop Robbery
-  - Fixed Instant Finish V2 [And also moved to have easy access]
+  # Updated for GTA Online 1.67
